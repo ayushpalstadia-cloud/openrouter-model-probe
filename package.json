@@ -1,0 +1,39 @@
+{
+  "name": "openrouter-model-probe",
+  "version": "0.1.0",
+  "description": "CLI to test which OpenRouter free models are working — plus a generic probe for any OpenAI-compatible LLM API",
+  "keywords": [
+    "openrouter",
+    "llm",
+    "ai",
+    "health-check",
+    "model-testing",
+    "cli",
+    "free-models",
+    "llm-probe",
+    "openai",
+    "model-monitoring",
+    "typescript",
+    "nodejs",
+    "developer-tools",
+    "machine-learning",
+    "language-model"
+  ],
+  "license": "MIT",
+  "type": "commonjs",
+  "main": "dist/index.js",
+  "bin": {
+    "probe-openrouter": "dist/probe-openrouter.js",
+    "probe-llm": "dist/probe-llm.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev:openrouter": "ts-node src/probe-openrouter.ts",
+    "dev:llm": "ts-node src/probe-llm.ts"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0",
+    "ts-node": "^10.9.0",
+    "@types/node": "^20.0.0"
+  }
+}
