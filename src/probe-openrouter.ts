@@ -86,10 +86,6 @@ async function main() {
   const probeOptions: ProbeOptions = {
     endpoint: 'https://openrouter.ai/api/v1/chat/completions',
     apiKey: process.env.OPENROUTER_API_KEY!,
-    extraHeaders: {
-      'HTTP-Referer': 'https://github.com/ayushpalstadia-cloud/openrouter-model-probe',
-      'X-Title': 'openrouter-model-probe',
-    },
     concurrency: options.concurrency,
     timeoutMs: options.timeout * 1000,
   };
