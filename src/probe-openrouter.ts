@@ -87,7 +87,7 @@ async function main() {
     endpoint: 'https://openrouter.ai/api/v1/chat/completions',
     apiKey: process.env.OPENROUTER_API_KEY!,
     extraHeaders: {
-      'HTTP-Referer': 'https://github.com/your-username/openrouter-model-probe',
+      'HTTP-Referer': 'https://github.com/ayushpalstadia-cloud/openrouter-model-probe',
       'X-Title': 'openrouter-model-probe',
     },
     concurrency: options.concurrency,

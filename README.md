@@ -162,7 +162,7 @@ probe-openrouter --json | jq '.[] | select(.status == "ok") | .slug'
 ## Development
 
 ```bash
-git clone https://github.com/your-username/openrouter-model-probe
+git clone https://github.com/ayushpalstadia-cloud/openrouter-model-probe
 cd openrouter-model-probe
 npm install
 npm run build

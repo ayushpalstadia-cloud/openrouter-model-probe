@@ -19,7 +19,16 @@
     "machine-learning",
     "language-model"
   ],
+  "author": "Ayush Pal",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ayushpalstadia-cloud/openrouter-model-probe"
+  },
+  "homepage": "https://github.com/ayushpalstadia-cloud/openrouter-model-probe#readme",
+  "bugs": {
+    "url": "https://github.com/ayushpalstadia-cloud/openrouter-model-probe/issues"
+  },
   "type": "commonjs",
   "main": "dist/index.js",
   "bin": {
